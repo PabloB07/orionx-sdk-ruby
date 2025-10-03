@@ -2,7 +2,7 @@
 
 The unofficial OrionX SDK for Ruby - A comprehensive Ruby library for interacting with the OrionX cryptocurrency exchange API.
 
-[![Gem Version](https://badge.fury.io/rb/orionx-sdk.svg)](https://badge.fury.io/rb/orionx-sdk)
+[![Gem Version](https://badge.fury.io/rb/orionx-sdk-ruby.svg)](https://badge.fury.io/rb/orionx-sdk-ruby)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
