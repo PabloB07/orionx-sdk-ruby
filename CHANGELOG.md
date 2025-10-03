@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2025-10-03
+
+### Fixed
+- Fixed GraphQL schema error: removed invalid verification fields (`kycVerified`, `phoneVerified`, `addressVerified`, `identityVerified`) from UserProfile query due to API schema inconsistencies
+- Resolved "Cannot query field kycVerified on type UserProfile" and related verification field errors
+
+### Changed
+- Updated User.me() method to query only confirmed working profile fields until verification field names can be determined from working API responses
+
 ## [1.0.2] - 2025-10-03
 
 ### Changed

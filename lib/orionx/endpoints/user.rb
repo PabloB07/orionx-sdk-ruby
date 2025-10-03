@@ -17,7 +17,6 @@ module OrionX
               profile {
                 fullName
                 phone
-                kycVerified
                 birthdate
                 countryCode
                 occupation
