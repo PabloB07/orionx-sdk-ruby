@@ -7,7 +7,7 @@ module OrionX
     def initialize
       @api_key = nil
       @api_secret = nil
-      @api_endpoint = "https://api2.orionx.io/graphql"
+      @api_endpoint = "https://api2.orionx.com/graphql"
       @debug = false
       @logger = nil
       @timeout = 30

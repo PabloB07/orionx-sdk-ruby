@@ -343,7 +343,7 @@ bundle exec rubocop -A
 
 For detailed API documentation, visit:
 - [OrionX API Documentation](http://docs.orionx.com/)
-- [GraphQL Schema Reference](https://api2.orionx.io/graphql)
+- [GraphQL Schema Reference](https://api2.orionx.com/graphql)
 
 ## Important Notes
 
