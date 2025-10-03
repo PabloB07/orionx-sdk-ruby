@@ -311,7 +311,7 @@ Comprehensive demonstration of debug features and error handling patterns.
 ### Setup
 
 ```bash
-git clone https://github.com/orionx-dev/orionx-sdk-ruby.git
+git clone https://github.com/PabloB07/orionx-sdk-ruby.git
 cd orionx-sdk-ruby
 bundle install
 ```
@@ -343,7 +343,7 @@ bundle exec rubocop -A
 
 For detailed API documentation, visit:
 - [OrionX API Documentation](http://docs.orionx.com/)
-- [GraphQL Schema Reference](https://api.orionx.com/graphql)
+- [GraphQL Schema Reference](https://api2.orionx.io/graphql)
 
 ## Important Notes
 
@@ -393,7 +393,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/orionx-dev/orionx-sdk-ruby/issues)
+- **Issues**: [GitHub Issues](https://github.com/PabloB07/orionx-sdk-ruby/issues)
 - **Documentation**: [OrionX API Docs](http://docs.orionx.com/)
 - **Email**: [support@orionx.com](mailto:support@orionx.com)
 

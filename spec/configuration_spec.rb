@@ -7,7 +7,7 @@ RSpec.describe OrionX::Configuration do
       
       expect(config.api_key).to be_nil
       expect(config.api_secret).to be_nil
-      expect(config.api_endpoint).to eq("https://api.orionx.com/graphql")
+      expect(config.api_endpoint).to eq("https://api2.orionx.io/graphql")
       expect(config.debug).to be_falsey
       expect(config.timeout).to eq(30)
       expect(config.retries).to eq(3)

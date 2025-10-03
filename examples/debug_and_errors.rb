@@ -98,7 +98,7 @@ puts "\n4. Debug Logging Demo..."
 OrionX.configure do |config|
   config.api_key = ENV["ORIONX_API_KEY"] || "your-api-key"
   config.api_secret = ENV["ORIONX_API_SECRET"] || "your-api-secret"
-  config.api_endpoint = "https://api.orionx.com/graphql"
+  config.api_endpoint = "https://api2.orionx.io/graphql"
   config.debug = true  # Enable detailed logging
   config.logger.level = Logger::DEBUG
 end
@@ -125,7 +125,7 @@ puts "\n5. Error Recovery Demo..."
 OrionX.configure do |config|
   config.api_key = ENV["ORIONX_API_KEY"] || "your-api-key"
   config.api_secret = ENV["ORIONX_API_SECRET"] || "your-api-secret"
-  config.api_endpoint = "https://api.orionx.com/graphql"
+  config.api_endpoint = "https://api2.orionx.io/graphql"
   config.debug = false  # Less verbose for this demo
   config.retries = 2    # Enable retries
 end

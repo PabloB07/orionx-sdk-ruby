@@ -65,7 +65,7 @@ RSpec.describe OrionX::Client do
       it "returns error status" do
         client = OrionX::Client.new
         
-        stub_request(:post, "https://api.test.orionx.com/graphql")
+        stub_request(:post, "https://api2.test.orionx.io/graphql")
           .to_return(status: 401)
 
         result = client.ping

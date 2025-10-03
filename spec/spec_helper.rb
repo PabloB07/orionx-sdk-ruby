@@ -35,13 +35,13 @@ def configure_orionx(debug: false)
   OrionX.configure do |config|
     config.api_key = "test_api_key"
     config.api_secret = "test_api_secret"
-    config.api_endpoint = "https://api.test.orionx.com/graphql"
+    config.api_endpoint = "https://api2.test.orionx.io/graphql"
     config.debug = debug
   end
 end
 
 def stub_graphql_request(query_match, response_body = {}, status: 200)
-  stub_request(:post, "https://api.test.orionx.com/graphql")
+  stub_request(:post, "https://api2.test.orionx.io/graphql")
     .with(
       body: hash_including("query" => a_string_matching(query_match)),
       headers: {

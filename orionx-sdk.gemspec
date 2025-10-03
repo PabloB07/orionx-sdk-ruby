@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "orionx-sdk-ruby"
-  spec.version       = "1.0.0"
+  spec.version       = "1.0.1"
   spec.authors       = ["PabloB07"]
   spec.email         = ["pablob0798@gmail.com"]
 
