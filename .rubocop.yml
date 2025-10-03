@@ -1,0 +1,58 @@
+AllCops:
+  TargetRubyVersion: 2.7
+  NewCops: enable
+
+# Metrics
+Metrics/ClassLength:
+  Max: 150
+
+Metrics/MethodLength:
+  Max: 25
+
+Metrics/AbcSize:
+  Max: 20
+
+Metrics/CyclomaticComplexity:
+  Max: 8
+
+Metrics/PerceivedComplexity:
+  Max: 8
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*"
+    - "*.gemspec"
+
+# Layout
+Layout/LineLength:
+  Max: 120
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+# Style  
+Style/Documentation:
+  Enabled: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/SymbolArray:
+  EnforcedStyle: brackets
+
+Style/WordArray:
+  EnforcedStyle: brackets
+
+# Naming
+Naming/PredicateName:
+  AllowedMethods:
+    - is_debug
+
+# Exclude generated and vendor files
+AllCops:
+  Exclude:
+    - "vendor/**/*"
+    - "bin/**/*"
