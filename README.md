@@ -23,7 +23,7 @@ The unofficial OrionX SDK for Ruby - A comprehensive Ruby library for interactin
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'orionx-sdk'
+gem 'orionx-sdk-ruby'
 ```
 
 And then execute:
@@ -35,7 +35,7 @@ $ bundle install
 Or install it yourself as:
 
 ```bash
-$ gem install orionx-sdk
+$ gem install orionx-sdk-ruby
 ```
 
 ## Quick Start
